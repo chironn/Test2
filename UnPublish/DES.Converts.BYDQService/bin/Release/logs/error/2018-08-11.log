@@ -1,0 +1,94 @@
+2018-08-11 12:34:38 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 26
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:34:38 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 12:53:23 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 12:53:24 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标下行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 12:54:27 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:55:05 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:55:29 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:56:28 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:56:53 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 13:14:37 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 13:34:06 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 15:36:08 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标下行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 15:36:08 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 

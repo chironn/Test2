@@ -1,0 +1,75 @@
+﻿+++++++++++++++++++++++++++++
+     [升级]主框架版本为"1.8"
+  1.[need]-DES.Converts.Gbt32960.exe]-[≥1.16.*]
+  2.[need]-[DES.Delivers.Gbt32960.exe]-[≥1.1.*]
+
+  主要支持功能：
+  1.DES.Converts.Gbt32960，修复‘1.7’版本当未配置里程数据是，转换结果为‘0xFFFF’不为国标规定的‘0xFFFFFFFF’的bug。
+  2.DES.Converts.Gbt32960 提供北汽宁德历史数据抽取转换功能。
++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+Ver 1.6.*
++++++++++++++++++++++++++++++
+     [升级]主框架版本为"1.7"
+  1.[need]-[DES.Converts.Gbt32960.exe]-[≥1.10.*]
+  2.[need]-[DES.FileWriters.Gbt32960.exe]-[≥1.2.*]
+  3.[need]-[DES.Delivers.Gbt32960.exe]-[≥1.0.*]
+  4.[need]-[DES.Delivers.Gbt32960.exe]-[≥1.0.*]
+  5.[need]-[DES.Register.exe]-[≥1.0.0.0]
+  6.[need]-[DES.CommunicationMixture.dll]-[≥1.0.0.0]
+  7.[need]-[DES.CommunicationMq.dll]-[≥1.0.*]
+  8.[need]-[DES.CommunicationSocket.dll]-[≥1.0.*]
+  9.[need]-[DES.Core.dll]-[≥1.6.*]
+  10.[need]-[DES.DbCaches.dll]-[≥1.5.*]
+  11.[need]-[DES.InLog.dll]-[≥1.1.*]
+  12.[need]-[DES.InLog.dll]-[≥1.1.*]
+
+  主要支持功能：
+  I.框架提供Socket和MQ混合通信方式支持。
+  II.国标数据转换服务“DES.Converts.Gbt32960.exe”支持分帧处理功能。
+  III.国标数据写入服务“DES.FileWriters.Gbt32960.exe”支持深圳要求的文本格式写入。
++++++++++++++++++++++++++++++
+  1.添加 IErrorFeedBackQueue.cs 接口，用于定义队列异常导致数据无法发送时，队列的数据反馈操作。
+  2.添加 IStatusQueue.cs 接口，定义存在逻辑状态（连接、准备、运行等）通信队列接口。
+  3.BaseService.cs 文件中，添加“BeforeQueueRun”虚方法，用于抽象队列运行前的操作。
+  4.BaseService.cs 文件中，添加“BeforeQueueRunEvent”用于外部订阅此事件，介入操作逻辑。
+   
+
+Ver 1.5.* 
+  1. CommunicationProvider.cs 基类中在“GetOrCreateEntity”添加“查询主键FindKey”参数，用户区分是获取的为哪中类型的通信实体。
+  2. BufferEntity.cs 修改其继承接口为“IFixBufferEntity.cs”，原来直接继承于“ICommunicationEntity”接口。
+  3. BaseToLogic.cs 文件中，修改“OnConvert(IFixBufferEntity entity)”方法参数类型为“IFixBufferEntity”原类型为“BufferEntity”。
+  4. 文件中，修改“PublishMessageEvent”方法中，调用从通信数据池获取数据方式时传"findkey"用于通信工厂查询实体类型。
+
+Ver 1.4.*    
++++++++++++++++++++++++++++++
+  [升级] 主框架版本为“1.6”
++++++++++++++++++++++++++++++
+ 1. 添加 “IFixBufferEntity.cs”定义固定字节长度缓存的字节数据操作接口。
+ 2. “BaseService.cs”文件中“PublishMessageEvent”方法去掉异常捕获后通信实体还池操作，遵循谁使用谁换池的远程。
+ 3. “BaseService.cs”文件中“OnCreateCommunicateFactory”方法中添加为通信工厂实体提供赋值日志组件操作。
+ 4. “BaseToCommunication.cs”文件中，“Convert”方法,添加 try finaly 块，用于在操作完成后，将通信实体数据还池。
+ 5. “CommunicationProvider.cs”文件中，添加日志组件调用接口，有外部传入。
+
+Ver 1.3.*
+  定义“性能计数器(Perfmon)”相关操作，并未实现具体代码。
+
+
+Ver 1.2.*
+  添加“GlobalPersistent”类，用于提供全局常量信息。
+  Shell,类初始化时，标题的版本信息使用 "_GlobalPersistent.Version"中的值
+  添加_PersistentVersion.cs 文件，用于记录服务主版本信息
+  BaseService.cs 提供命令行参数，用于查询服务版本。
+
+
+Ver 1.1.*
+  创建版本说明。
+  1.添加功能：支持配置文件启动程序。
+  2.添加“LogProvider”的多组实现
+

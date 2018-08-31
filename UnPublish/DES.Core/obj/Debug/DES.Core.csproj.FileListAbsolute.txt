@@ -1,0 +1,32 @@
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Debug\IniFiles\des.core.config
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Debug\DES.Core.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Debug\DES.Core.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Debug\DES.Utilities.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Debug\protobuf-net.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Debug\DES.Utilities.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Debug\protobuf-net.xml
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\obj\Debug\DES.Core.csprojResolveAssemblyReference.cache
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\obj\Debug\DES.Core.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\obj\Debug\DES.Core.pdb
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\bin\Debug\IniFiles\des.core.config
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\bin\Debug\DES.Core.dll
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\bin\Debug\DES.Core.pdb
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\bin\Debug\DES.Utilities.dll
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\bin\Debug\protobuf-net.dll
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\bin\Debug\DES.Utilities.pdb
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\bin\Debug\protobuf-net.xml
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\obj\Debug\DES.Core.csprojResolveAssemblyReference.cache
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\obj\Debug\DES.Core.dll
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.Core\obj\Debug\DES.Core.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\IniFiles\des.core.config
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\DES.Core.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\DES.Core.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\DES.Utilities.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\protobuf-net.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\DES.Utilities.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\protobuf-net.xml
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\DES.Core.csprojAssemblyReference.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\DES.Core.csproj.CoreCompileInputs.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\DES.Core.csproj.CopyComplete
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\DES.Core.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\DES.Core.pdb

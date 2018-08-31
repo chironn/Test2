@@ -1,0 +1,34 @@
+2018-08-17 10:05:07 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列声明失败!;异常:RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'DES.EXCHANGE.HASE.CONVERTS.BYDData.UP' in vhost '/': received 'fanout' but current is 'direct'", classId=40, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply()
+   在 RabbitMQ.Client.Impl.ModelBase.ModelRpc(MethodBase method, ContentHeaderBase header, Byte[] body)
+   在 RabbitMQ.Client.Framing.Impl.Model._Private_ExchangeDeclare(String exchange, String type, Boolean passive, Boolean durable, Boolean autoDelete, Boolean internal, Boolean nowait, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.ExchangeDeclare(String exchange, String type, Boolean durable, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.ExchangeDeclare(String exchange, String type, Boolean durable, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.ExchangeDeclare(String exchange, String type, Boolean durable)
+   在 DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-17 10:05:07 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.AlreadyClosedException: Already closed: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'DES.EXCHANGE.HASE.CONVERTS.BYDData.UP' in vhost '/': received 'fanout' but current is 'direct'", classId=40, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SessionBase.Transmit(Command cmd)
+   在 RabbitMQ.Client.Impl.ModelBase.ModelSend(MethodBase method, ContentHeaderBase header, Byte[] body)
+   在 RabbitMQ.Client.Framing.Impl.Model._Private_QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, Boolean nowait, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-17 10:05:45 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列声明失败!;异常:RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'DES.EXCHANGE.HASE.CONVERTS.BYDData.UP' in vhost '/': received 'fanout' but current is 'direct'", classId=40, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply()
+   在 RabbitMQ.Client.Impl.ModelBase.ModelRpc(MethodBase method, ContentHeaderBase header, Byte[] body)
+   在 RabbitMQ.Client.Framing.Impl.Model._Private_ExchangeDeclare(String exchange, String type, Boolean passive, Boolean durable, Boolean autoDelete, Boolean internal, Boolean nowait, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.ExchangeDeclare(String exchange, String type, Boolean durable, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.ExchangeDeclare(String exchange, String type, Boolean durable, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.ExchangeDeclare(String exchange, String type, Boolean durable)
+   在 DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-17 10:05:46 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.AlreadyClosedException: Already closed: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'DES.EXCHANGE.HASE.CONVERTS.BYDData.UP' in vhost '/': received 'fanout' but current is 'direct'", classId=40, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SessionBase.Transmit(Command cmd)
+   在 RabbitMQ.Client.Impl.ModelBase.ModelSend(MethodBase method, ContentHeaderBase header, Byte[] body)
+   在 RabbitMQ.Client.Framing.Impl.Model._Private_QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, Boolean nowait, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   在 DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-17 10:12:58 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 

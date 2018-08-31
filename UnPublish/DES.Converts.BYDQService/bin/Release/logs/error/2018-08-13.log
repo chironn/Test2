@@ -1,0 +1,33 @@
+2018-08-13 10:02:25 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-13 10:12:45 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt16(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt16(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 21
+   在 DES.Protocols.BYDQ.BaseParser.OnDecomposeTail(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 210
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 232
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-13 10:12:50 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-13 10:12:50 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标下行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-13 15:56:48 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'durable' for exchange 'Ex.BYD.QB3006' in vhost '/': received 'true' but current is 'false'", classId=40, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply()
+   在 RabbitMQ.Client.Impl.ModelBase.ModelRpc(MethodBase method, ContentHeaderBase header, Byte[] body)
+   在 RabbitMQ.Client.Framing.Impl.Model._Private_ExchangeDeclare(String exchange, String type, Boolean passive, Boolean durable, Boolean autoDelete, Boolean internal, Boolean nowait, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.ExchangeDeclare(String exchange, String type, Boolean durable, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.ExchangeDeclare(String exchange, String type, Boolean durable, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.ExchangeDeclare(String exchange, String type, Boolean durable)
+   在 DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-13 15:59:26 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text="PRECONDITION_FAILED - inequivalent arg 'durable' for exchange 'Ex.BYD.QB3006' in vhost '/': received 'true' but current is 'false'", classId=40, methodId=10, cause=
+   在 RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply()
+   在 RabbitMQ.Client.Impl.ModelBase.ModelRpc(MethodBase method, ContentHeaderBase header, Byte[] body)
+   在 RabbitMQ.Client.Framing.Impl.Model._Private_ExchangeDeclare(String exchange, String type, Boolean passive, Boolean durable, Boolean autoDelete, Boolean internal, Boolean nowait, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.ModelBase.ExchangeDeclare(String exchange, String type, Boolean durable, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.ExchangeDeclare(String exchange, String type, Boolean durable, Boolean autoDelete, IDictionary`2 arguments)
+   在 RabbitMQ.Client.Impl.AutorecoveringModel.ExchangeDeclare(String exchange, String type, Boolean durable)
+   在 DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 

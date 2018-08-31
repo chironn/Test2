@@ -1,0 +1,15 @@
+2018-08-11 14:56:38   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 14:56:38   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 14:56:38   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 14:56:38   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 14:56:38   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 14:56:38   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 14:56:38   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 16:15:41   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 16:15:41   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 16:15:42   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 16:15:42   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 16:15:42   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP.InDB,绑定/路由键 
+ 2018-08-11 16:15:42   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 16:15:42   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 

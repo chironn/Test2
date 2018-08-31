@@ -1,0 +1,15 @@
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\IniFiles\des.core.config
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\IniFiles\log4net.config
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\DES.InLog.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\DES.InLog.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\DES.Core.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\inLogs.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\log4net.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\DES.Utilities.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\protobuf-net.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\DES.Core.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\DES.Utilities.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\bin\Release\protobuf-net.xml
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\obj\Release\DES.InLog.csprojResolveAssemblyReference.cache
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\obj\Release\DES.InLog.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.InLog\obj\Release\DES.InLog.pdb

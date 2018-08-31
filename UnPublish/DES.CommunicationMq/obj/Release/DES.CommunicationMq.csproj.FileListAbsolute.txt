@@ -1,0 +1,14 @@
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\IniFiles\des.core.config
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\IniFiles\communicateQueue.config
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\DES.CommunicationMq.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\DES.CommunicationMq.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\DES.Core.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\RabbitMQ.Client.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\DES.Utilities.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\protobuf-net.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\DES.Core.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\DES.Utilities.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\bin\Release\protobuf-net.xml
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\obj\Release\DES.CommunicationMq.csprojResolveAssemblyReference.cache
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\obj\Release\DES.CommunicationMq.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.CommunicationMq\obj\Release\DES.CommunicationMq.pdb

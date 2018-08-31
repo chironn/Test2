@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "d4202fb8d7f324f4f1545bb20f5d231eb987da22"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "DES.Entities.BYDQ/1.0.0": {
+        "dependencies": {
+          "System.Data.DataSetExtensions": "4.5.0",
+          "Newtonsoft.Json": "6.0.0.0",
+          "protobuf-net": "2.3.1.0"
+        },
+        "runtime": {
+          "DES.Entities.BYDQ.dll": {}
+        }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Newtonsoft.Json/6.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.3.17227"
+          }
+        }
+      },
+      "protobuf-net/2.3.1.0": {
+        "runtime": {
+          "protobuf-net.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DES.Entities.BYDQ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Loe2PGd6SAxq0/kL9Ev/FCxPauBWLLEu1c49XmV2ywWvMasIxArwKCBjBC078wId27jA/TqvIRoKaulnEf290Q==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "protobuf-net/2.3.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

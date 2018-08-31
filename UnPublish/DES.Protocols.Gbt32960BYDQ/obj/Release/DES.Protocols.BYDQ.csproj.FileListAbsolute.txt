@@ -1,0 +1,16 @@
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\DES.Protocols.BYDQ.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\DES.Protocols.BYDQ.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\DES.DbCaches.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\DES.Entities.BYDQ.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\DES.Utilities.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\Newtonsoft.Json.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\Oracle.ManagedDataAccess.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\Dapper.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\protobuf-net.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\DES.DbCaches.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\DES.Entities.BYDQ.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\DES.Utilities.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\bin\Release\protobuf-net.xml
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\obj\Release\DES.Protocols.BYDQ.csprojResolveAssemblyReference.cache
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\obj\Release\DES.Protocols.BYDQ.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\obj\Release\DES.Protocols.BYDQ.pdb

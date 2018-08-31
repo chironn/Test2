@@ -1,0 +1,41 @@
+2018-08-29 15:30:57 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.NotSupportedException: This protocol version is not supported.
+   at System.Net.Sockets.Socket.BeginConnect(IPAddress address, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Connect(TcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateFrameHandler(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.init()
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at DES.CommunicationMq.MqFactory.Connection(MqConfig config)
+   at DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-29 15:30:57 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标下行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.NotSupportedException: This protocol version is not supported.
+   at System.Net.Sockets.Socket.BeginConnect(IPAddress address, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Connect(TcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateFrameHandler(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.init()
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at DES.CommunicationMq.MqFactory.Connection(MqConfig config)
+   at DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-29 15:51:46 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.NotSupportedException: This protocol version is not supported.
+   at System.Net.Sockets.Socket.BeginConnect(IPAddress address, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Connect(TcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateFrameHandler(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.init()
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at DES.CommunicationMq.MqFactory.Connection(MqConfig config)
+   at DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-29 17:35:13 inCom.Logs.Log4NetHelper.Error  ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标下行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 

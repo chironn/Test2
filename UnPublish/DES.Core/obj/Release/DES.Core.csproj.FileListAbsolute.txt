@@ -1,0 +1,10 @@
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Release\IniFiles\des.core.config
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Release\DES.Core.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Release\DES.Core.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Release\DES.Utilities.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Release\protobuf-net.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Release\DES.Utilities.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\bin\Release\protobuf-net.xml
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\obj\Release\DES.Core.csprojResolveAssemblyReference.cache
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\obj\Release\DES.Core.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\obj\Release\DES.Core.pdb

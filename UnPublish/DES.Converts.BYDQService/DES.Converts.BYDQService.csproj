@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8746EF8B-E31B-44C0-8F8B-9702F3FC6A7A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DES.Converts.BYDQService</RootNamespace>
+    <AssemblyName>DES.Converts.BYDQService</AssemblyName>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <!--<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>-->
+  <ItemGroup>
+    <Reference Include="Exchange.Core, Version=1.3.6681.25746, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Exchange.1.3.6681.25746\lib\Exchange.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Exchange.Framwork, Version=1.3.6681.25746, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Exchange.1.3.6681.25746\lib\Exchange.Framwork.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <!--<ItemGroup>
+    <Compile Include="Entity\FromIncomBufferEntity.cs" />
+    <Compile Include="Entity\FromInComEntity.cs" />
+    <Compile Include="Logic\DownloadLogic.cs" />
+    <Compile Include="Logic\UploadLogic.cs" />
+    <Compile Include="MainService.cs" />
+    <Compile Include="Parse\FromInComDownEntityParse.cs" />
+    <Compile Include="Parse\FromInComUPEntityParse.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protocol\ProtocolParseDownload.cs" />
+    <Compile Include="Protocol\ProtocolParseUpload.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="IniFiles\communicateQueue.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>-->
+  <ItemGroup>
+    <ProjectReference Include="..\DES.CommunicationMq\DES.CommunicationMq.csproj" />
+    <ProjectReference Include="..\DES.Core\DES.Core.csproj">
+      <Project>{7f3816b7-3e12-4939-989e-b36a2e9e4819}</Project>
+      <Name>DES.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DES.DbCaches\DES.DbCaches.csproj" />
+    <ProjectReference Include="..\DES.Entities.Gbt32960BYDQ\DES.Entities.BYDQ.csproj">
+      <Project>{29b5f93d-5fc5-48f6-826c-104bdd9abaad}</Project>
+      <Name>DES.Entities.BYDQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DES.InLog\DES.InLog.csproj">
+      <Project>{202401aa-7124-438a-93bb-31d3102a01c1}</Project>
+      <Name>DES.InLog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DES.Protocols.Gbt32960BYDQ\DES.Protocols.BYDQ.csproj">
+      <Project>{8fb4b838-51df-4161-9c4b-2403cf4471b1}</Project>
+      <Name>DES.Protocols.BYDQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DES.Utilities\DES.Utilities.csproj">
+      <Project>{aa3390f4-1634-4f02-9178-1c7d97ae58eb}</Project>
+      <Name>DES.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="版本说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="IniFiles\communicateQueue.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <!--<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

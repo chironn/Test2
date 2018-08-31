@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F3816B7-3E12-4939-989E-B36A2E9E4819}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DES.Core</RootNamespace>
+    <AssemblyName>DES.Core</AssemblyName>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <!--<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>-->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'bin|AnyCPU'">
+    <OutputPath>bin\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <!--<ItemGroup>
+    <Compile Include="BaseLogicEntity.cs" />
+    <Compile Include="BaseService.cs" />
+    <Compile Include="BaseToLogic.cs" />
+    <Compile Include="BufferEntity.cs" />
+    <Compile Include="CmdActionAttribute.cs" />
+    <Compile Include="CommunicationProvider.cs" />
+    <Compile Include="ConfigProvider.cs" />
+    <Compile Include="BaseToCommunication.cs" />
+    <Compile Include="Diagnostics\InvokeWacherManager.cs" />
+    <Compile Include="Diagnostics\InvokeWatcher.cs" />
+    <Compile Include="Interfaces\ICommunicateQueue.cs" />
+    <Compile Include="Interfaces\ICommunicationEntity.cs" />
+    <Compile Include="Interfaces\IErrorFeedBackQueue.cs" />
+    <Compile Include="Interfaces\IFixBufferEntity.cs" />
+    <Compile Include="Interfaces\ILogicWork.cs" />
+    <Compile Include="Interfaces\ILogWrite.cs" />
+    <Compile Include="Interfaces\IStatusQueue.cs" />
+    <Compile Include="Interfaces\IToCommunication.cs" />
+    <Compile Include="Interfaces\IToLogic.cs" />
+    <Compile Include="Interfaces\IPopQueue.cs" />
+    <Compile Include="Interfaces\IPushQueue.cs" />
+    <Compile Include="Interfaces\IQueueConfig.cs" />
+    <Compile Include="Interfaces\LogicEntity.cs" />
+    <Compile Include="LogicWorkProvider.cs" />
+    <Compile Include="LogProvider.cs" />
+    <Compile Include="Register.cs" />
+    <Compile Include="Shell.cs" />
+    <Compile Include="_PersistentVersion.cs" />
+  </ItemGroup>-->
+  <ItemGroup>
+    <None Include="IniFiles\des.core.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DES.Utilities\DES.Utilities.csproj">
+      <Project>{aa3390f4-1634-4f02-9178-1c7d97ae58eb}</Project>
+      <Name>DES.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="版本说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <!--<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

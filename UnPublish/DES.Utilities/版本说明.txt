@@ -1,0 +1,7 @@
+﻿Ver 1.1.1
+ 添加"BlockingQueue"线程安全队列事件处理方法。
+Ver 1.1.*
+ FileWriteManger.cs 文件 “FileWriter.Flush” 添加数据写入失败后，数据重新进进入写入缓存操作。
+
+Ver 1.0.*
+  创建版本说明

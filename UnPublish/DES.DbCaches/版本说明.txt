@@ -1,0 +1,29 @@
+﻿ver 1.6.1
+  1.添加"IDbBYDQBaseInfoLoad.cs"接口,在"DapperDbProvider.cs"中通过实现接口方法是BYDQ协议数据存入数据库
+  2.添加"DataMonitorEntity.cs","EventTriggerEntity.cs","BYDQBaseEntity.cs"数据库实体类
+Ver 1.6.*
+  1.添加“VehicleBaseInfo.cs”类中终端号、转发接入用户名字段。
+  2.添加“LoadAccessVehicleInfo.cs”定义接入车辆基础信息的查询接口。
+  3.修改“DapperDbProvider.cs”提供“LoadAccessVehicleInfo”的数据访问层的实现。
+  4.修改“Provider.cs”为“IVehicleBaseInfoLoad”接口注册“DapperDbProvider”类型的实现。
+
+Ver 1.5.*
+  1.添加“VehicleBaseInfo.cs”存储车辆的基础信息。
+  2.添加“IVehicleBaseInfoLoad.cs”定义车辆基础信息的查询接口。
+  3.添加“VehicleBaseInfoCaches.cs” 用于缓存车辆基础信息数据，并提供查询方法。
+  4.修改“DapperDbProvider.cs”提供“IVehicleBaseInfoLoad”的数据访问层的实现。
+  5.修改“Provider.cs”为“IVehicleBaseInfoLoad”接口注册“DapperDbProvider”类型的实现。
+
+Ver1.4.*
+ [添加]Faultmap.cs 用于存储数据库数据结构。
+ [添加]IFaultMapOperator.cs 用于提供故障操作。
+ [添加]FaultMapOperator.cs.cs 提供 “IFaultMapOperator”的实现。
+ [修改]IDbcMapProvider.cs 添加“decimal? FindValueFromDbc(ExchangeProtocolEntity data, ProtocolMapConfigEnttity config);”接口
+ [修改]IDbHExchangeLoad.cs 添加“List<Faultmap> QueryFaultMap();”接口
+
+
+Ver1.3.*
+  添加 IDbHExchangeLoad 接口，用于历史数据转发相关数据库查询接口
+
+Ver 1.2.*
+  创建版本

@@ -1,0 +1,339 @@
+2018-08-11 12:11:48   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:11:49   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:11:49   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:11:49   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:11:49   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:11:49   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:11:49   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:14:59   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:14:59   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:14:59   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:14:59   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:14:59   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:14:59   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:14:59   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:21:41   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:21:41   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:21:41   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:21:41   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:21:42   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:21:42   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:21:42   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:30:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:30:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:30:02   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:30:02   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:30:02   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:30:02   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:30:02   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:31:25   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:31:25   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:31:25   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:31:26   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:31:26   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:31:26   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:31:26   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:31:39   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:31:39   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:31:39   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:31:39   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:31:39   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:31:39   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:31:39   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:34:38   ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 26
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:34:38   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 12:35:56   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:35:56   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:35:56   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:35:56   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:35:57   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:35:57   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:35:57   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:38:00   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:38:00   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:38:01   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:38:01   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:38:01   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:38:01   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:38:01   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:41:10   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:41:10   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:41:10   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:41:10   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:41:10   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:41:10   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:41:10   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:53:23   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 12:53:24   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标下行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 12:54:27   ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:54:45   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:54:45   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:54:45   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:54:45   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:54:45   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:54:45   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:54:45   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:55:05   ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:55:19   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:55:19   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:55:19   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:55:19   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:55:19   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:55:20   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:55:20   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:55:29   ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:55:39   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:55:39   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:55:39   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:55:40   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:55:40   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:55:40   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:55:40   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:56:28   ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:56:37   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:56:37   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:56:37   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:56:37   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:56:37   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:56:37   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:56:37   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 12:56:53   ERROR ERROR - DES.Converts.BYDQService;逻辑处理队列:上行数据逻辑,运行任务时发生未捕获异常;异常:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: startIndex
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.BitConverter.ToInt32(Byte[] value, Int32 startIndex)
+   在 DES.Protocols.BYDQ.Extends.BytesExtend.ReadBigEndianUInt32(Byte[] messge, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Extends\BytesExtend.cs:行号 77
+   在 DES.Protocols.BYDQ.Parses.DataUnitParsers.CanMessageDataParser.Decompose(Byte[] message, Int32& offset, DataBaseUnit protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\DataUnitParsers\CanMessageDataParser.cs:行号 18
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 60
+   在 DES.Protocols.BYDQ.Parses.DataMonitorParser.OnDecomposeBody(Byte[] message, Int32& offset, BaseEntity protocol) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\Parses\3006DataMonitorParser.cs:行号 94
+   在 DES.Protocols.BYDQ.BaseParser.DecomposeMessage(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\BaseParser.cs:行号 202
+   在 DES.Protocols.BYDQ.ParserManager.Decompose(Byte[] message, Int32& offset) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Protocols.Gbt32960BYDQ\ParserManager.cs:行号 85
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.DataMonitor(IFixBufferEntity caches) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 44
+   在 DES.Converts.BYDQService.Parse.FromInComUPEntityParse.OnConvert(IFixBufferEntity communicationEntity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Converts.BYDQService\Parse\FromInComUPEntityParse.cs:行号 105
+   在 DES.Core.ToLogic`2.Convert(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseToLogic.cs:行号 34
+   在 DES.Core.BaseService.OnConvertToLogic(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 264
+   在 DES.Core.BaseService.OnReceive(ICommunicationEntity entity) 位置 e:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Core\BaseService.cs:行号 299
+ 2018-08-11 12:58:22   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 12:58:22   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 12:58:22   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 12:58:23   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 12:58:23   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 12:58:23   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 12:58:23   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 13:10:06   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 13:10:06   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 13:10:06   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 13:10:06   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 13:10:06   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 13:10:06   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 13:10:06   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 13:14:37   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 13:22:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 13:22:03   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 13:22:03   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 13:22:03   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 13:22:03   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 13:22:03   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 13:22:03   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 13:25:38   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 13:25:38   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 13:25:39   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 13:25:39   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 13:25:39   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 13:25:39   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 13:25:39   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 13:31:34   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 13:31:34   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 13:31:34   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 13:31:34   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 13:31:34   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 13:31:34   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 13:31:34   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 13:34:06   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 13:35:34   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 13:35:34   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 13:35:34   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 13:35:34   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 13:35:34   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 13:35:34   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 13:35:34   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 13:39:43   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 13:39:43   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 13:39:43   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 13:39:43   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 13:39:43   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 13:39:43   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 13:39:43   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 13:40:59   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 13:40:59   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 13:40:59   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 13:40:59   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 13:40:59   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 13:40:59   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 13:40:59   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 13:41:21   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 13:41:21   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 13:41:21   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 13:41:21   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 13:41:21   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 13:41:21   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 13:41:25   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 13:44:09   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 13:44:09   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 13:44:09   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 13:44:09   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 13:44:09   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 13:44:09   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 13:44:09   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 14:11:08   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 14:11:08   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 14:11:09   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 14:11:09   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 14:11:09   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 14:11:09   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 14:11:09   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 14:20:24   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 14:20:24   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 14:20:24   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 14:20:24   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 14:20:24   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 14:20:24   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 14:20:24   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 14:34:56   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 14:34:56   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 14:34:56   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 14:34:56   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 14:34:56   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 14:34:56   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 14:34:57   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 14:39:13   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 14:39:13   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 14:39:14   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 14:39:14   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 14:39:14   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 14:39:14   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 14:39:14   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 14:40:52   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 14:40:52   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 14:40:52   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 14:40:52   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 14:40:52   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 14:40:52   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 14:40:52   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 14:47:56   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 14:47:56   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 14:47:56   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 14:47:56   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 14:47:56   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 14:47:56   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 14:47:56   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 14:49:19   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 14:49:19   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 14:49:19   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 14:49:20   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 14:49:20   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-11 14:49:20   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 14:49:20   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 15:06:21   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 15:06:21   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 15:06:21   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 15:06:22   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 15:06:22   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP.InDB,绑定/路由键 
+ 2018-08-11 15:06:22   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 15:06:22   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 15:36:08   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标下行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 15:36:08   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-11 15:41:20   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 15:41:20   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 15:41:20   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 15:41:20   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 15:41:20   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP.InDB,绑定/路由键 
+ 2018-08-11 15:41:20   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 15:41:20   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 15:44:58   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 15:44:58   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 15:44:58   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 15:44:58   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 15:44:58   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP.InDB,绑定/路由键 
+ 2018-08-11 15:44:58   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 15:44:58   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 15:47:00   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 15:47:00   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 15:47:00   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 15:47:00   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 15:47:00   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP.InDB,绑定/路由键 
+ 2018-08-11 15:47:01   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 15:47:01   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-11 16:02:23   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-11 16:02:23   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-11 16:02:23   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键3006 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-11 16:02:23   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-11 16:02:23   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP.InDB,绑定/路由键 
+ 2018-08-11 16:02:23   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:127.0.0.1:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-11 16:02:23   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 

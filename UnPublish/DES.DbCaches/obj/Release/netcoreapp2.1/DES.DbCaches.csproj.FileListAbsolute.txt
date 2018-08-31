@@ -1,0 +1,14 @@
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\bin\release\netcoreapp2.1\DES.DbCaches.deps.json
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\bin\release\netcoreapp2.1\DES.DbCaches.dll
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\bin\release\netcoreapp2.1\DES.DbCaches.pdb
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\bin\release\netcoreapp2.1\Dapper.dll
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\bin\release\netcoreapp2.1\InCom.Forward.Ulitities.dll
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\bin\release\netcoreapp2.1\Newtonsoft.Json.dll
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\bin\release\netcoreapp2.1\Oracle.ManagedDataAccess.dll
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\obj\release\netcoreapp2.1\DES.DbCaches.csprojAssemblyReference.cache
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\obj\release\netcoreapp2.1\DES.DbCaches.csproj.CoreCompileInputs.cache
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\obj\release\netcoreapp2.1\DES.DbCaches.AssemblyInfoInputs.cache
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\obj\release\netcoreapp2.1\DES.DbCaches.AssemblyInfo.cs
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\obj\release\netcoreapp2.1\DES.DbCaches.csproj.CopyComplete
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\obj\release\netcoreapp2.1\DES.DbCaches.dll
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.DbCaches\obj\release\netcoreapp2.1\DES.DbCaches.pdb

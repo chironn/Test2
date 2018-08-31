@@ -1,0 +1,2 @@
+﻿Ver 1.0.0.1
+创建版本说明，“BaseEntity.cs” 初始化时应答标识设置为0xFE 0xFE。

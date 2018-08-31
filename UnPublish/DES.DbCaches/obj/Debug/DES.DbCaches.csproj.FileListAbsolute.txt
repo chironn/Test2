@@ -1,0 +1,31 @@
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\DES.DbCaches.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\DES.DbCaches.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\Dapper.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\DES.Entities.BYDQ.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\Newtonsoft.Json.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\protobuf-net.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\DES.Entities.BYDQ.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\DES.Entities.BYDQ.xml
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Debug\protobuf-net.xml
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\obj\Debug\DES.DbCaches.csprojResolveAssemblyReference.cache
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\obj\Debug\DES.DbCaches.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\obj\Debug\DES.DbCaches.pdb
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\DES.DbCaches.dll
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\DES.DbCaches.pdb
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\Dapper.dll
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\Newtonsoft.Json.dll
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\DES.DbCaches.csprojResolveAssemblyReference.cache
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\DES.DbCaches.dll
+C:\Users\E450\Documents\Visual Studio 2012\Projects\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\DES.DbCaches.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\DES.DbCaches.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\DES.DbCaches.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\Dapper.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\Newtonsoft.Json.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\DES.DbCaches.csprojAssemblyReference.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\DES.DbCaches.csproj.CoreCompileInputs.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\DES.DbCaches.csproj.CopyComplete
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\DES.DbCaches.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\DES.DbCaches.pdb

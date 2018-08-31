@@ -1,0 +1,15 @@
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\netcoreapp2.1\DES.Core.csprojAssemblyReference.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\netcoreapp2.1\DES.Core.csproj.CoreCompileInputs.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\netcoreapp2.1\DES.Core.AssemblyInfoInputs.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\netcoreapp2.1\DES.Core.AssemblyInfo.cs
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\netcoreapp2.1\IniFiles\des.core.config
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\netcoreapp2.1\DES.Core.deps.json
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\netcoreapp2.1\DES.Core.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\netcoreapp2.1\DES.Utilities.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\netcoreapp2.1\protobuf-net.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\netcoreapp2.1\DES.Utilities.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\netcoreapp2.1\protobuf-net.xml
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\netcoreapp2.1\DES.Core.csproj.CopyComplete
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\bin\Debug\netcoreapp2.1\DES.Core.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\netcoreapp2.1\DES.Core.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Core\obj\Debug\netcoreapp2.1\DES.Core.pdb

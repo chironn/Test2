@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FB4B838-51DF-4161-9C4B-2403CF4471B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DES.Protocols.BYDQ</RootNamespace>
+    <AssemblyName>DES.Protocols.BYDQ</AssemblyName>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <!--<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>-->
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <!--<ItemGroup>
+    <Compile Include="BaseParser.cs" />
+    <Compile Include="Extends\BytesExtend.cs" />
+    <Compile Include="ParserManager.cs" />
+    <Compile Include="Parses\3006DataMonitorParser.cs" />
+    <Compile Include="Parses\3007EventTriggerParser.cs" />
+    <Compile Include="Parses\3008DispatchInstructionDownParser.cs" />
+    <Compile Include="Parses\7002RemoteDebugUPParser.cs" />
+    <Compile Include="Parses\BaseDataUnitParser.cs" />
+    <Compile Include="Parses\7002RemoteDebugDownParser.cs" />
+    <Compile Include="Parses\DataUnitParsers\CanMessageDataParser.cs" />
+    <Compile Include="Parses\DataUnitParsers\DiagnosticDataDownParser.cs" />
+    <Compile Include="Parses\DataUnitParsers\DiagnosticDataUPParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>-->
+  <ItemGroup>
+    <Content Include="版本说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DES.DbCaches\DES.DbCaches.csproj">
+      <Project>{a53653e8-8372-427b-ad8f-67fa9b4be4bc}</Project>
+      <Name>DES.DbCaches</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DES.Entities.Gbt32960BYDQ\DES.Entities.BYDQ.csproj">
+      <Project>{29b5f93d-5fc5-48f6-826c-104bdd9abaad}</Project>
+      <Name>DES.Entities.BYDQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DES.Utilities\DES.Utilities.csproj">
+      <Project>{aa3390f4-1634-4f02-9178-1c7d97ae58eb}</Project>
+      <Name>DES.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <!--<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

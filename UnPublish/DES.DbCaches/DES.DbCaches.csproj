@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A53653E8-8372-427B-AD8F-67FA9B4BE4BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DES.DbCaches</RootNamespace>
+    <AssemblyName>DES.DbCaches</AssemblyName>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <!--<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>-->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'bin|AnyCPU'">
+    <OutputPath>bin\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\lib\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="InCom.Forward.Ulitities">
+      <HintPath>..\lib\InCom.Forward.Ulitities.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\lib\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <!--<ItemGroup>
+    <Compile Include="DbEntities\DataMonitorEntity.cs" />
+    <Compile Include="DbEntities\DbcmapBatch.cs" />
+    <Compile Include="DbEntities\DispatchInstructionDownEntity.cs" />
+    <Compile Include="DbEntities\EventTriggerEntity.cs" />
+    <Compile Include="DbEntities\Faultmap.cs" />
+    <Compile Include="DbEntities\HisotoryDbcmapEntity.cs" />
+    <Compile Include="DbEntities\RemoteDebugDownEntity.cs" />
+    <Compile Include="DbEntities\RemoteDebugUPEntity.cs" />
+    <Compile Include="DbEntities\RemoteDebugUPJsonResultEntity.cs" />
+    <Compile Include="DbEntities\StatisticsHistoryEntity.cs" />
+    <Compile Include="Entities\BYDQBaseEntity.cs" />
+    <Compile Include="Entities\ExchangeProtocolEntity.cs" />
+    <Compile Include="DbEntities\ForwadVehicleEntity.cs" />
+    <Compile Include="Entities\OperationResult.cs" />
+    <Compile Include="Entities\ProtocolMapConfigEnttity.cs" />
+    <Compile Include="Entities\VehicleBaseInfo.cs" />
+    <Compile Include="Implementeds\DapperDbProvider.cs" />
+    <Compile Include="Implementeds\DbcMapProvider.cs" />
+    <Compile Include="Implementeds\FaultMapOperator.cs" />
+    <Compile Include="Implementeds\VehicleBaseInfoCaches.cs" />
+    <Compile Include="Interfaces\IDbBYDQBaseInfoLoad.cs" />
+    <Compile Include="Interfaces\IVehicleBaseInfoLoad.cs" />
+    <Compile Include="Interfaces\IDbcMapProvider.cs" />
+    <Compile Include="Interfaces\IDbHExchangeLoad.cs" />
+    <Compile Include="Interfaces\IDbHistoryForward.cs" />
+    <Compile Include="Interfaces\IDbProvider.cs" />
+    <Compile Include="Interfaces\IFaultMapOperator.cs" />
+    <Compile Include="Provider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>-->
+  <ItemGroup>
+    <Content Include="版本说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <!--<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

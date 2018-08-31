@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DES.Entities.BYDQ</name>
+    </assembly>
+    <members>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.IsResponse">
+            <summary>
+            是否为应答实体
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.Encryption">
+            <summary>
+            加密方式 0x01：数据不加密；0x02：数据经过RSA算法加密；0x03:数据经过AES128位算法加密；“0xFE”表示异常，“0xFF”表示无效，其他预留
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.DataLength">
+            <summary>
+            入库，数据区长度
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.DataUnitLength">
+            <summary>
+            数据区长度
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.Type">
+            <summary>
+            功能定义TYPE
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.CMD">
+            <summary>
+            功能定义CMD
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.FunctionNumber">
+            <summary>
+            入库，功能号
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.FunctionCode">
+             <summary>
+            功能号
+             </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.ResponseSign">
+            <summary>
+            应答标志
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.FunctionStatus">
+            <summary>
+            功能版本
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.UniqueIdentity">
+            <summary>
+            整车VIN码 17位长度，不够补0。对于传输车辆数据时，此值为VIN码；对于传输其他数据时，此值为唯一标示
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.ProductType">
+            <summary>
+            车机端产品类型
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.CloudProductCode">
+            <summary>
+            云端产品代号 1:云服务1.0 2：云服务2.0
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.DbTimeStamp">
+            <summary>
+            入库，数据包时间戳
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.TimeStamp">
+            <summary>
+            数据包时间戳
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.BaseEntity.CheckCode">
+            <summary>
+            校验码
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DispatchInstructionDown.MsgType">
+            <summary>
+            消息上下行
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DispatchInstructionDown.UUID">
+            <summary>
+            下发指令的UUID
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DispatchInstructionDown.Time1">
+            <summary>
+            时间1：年月日时分秒。与国标一致
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DispatchInstructionDown.Time2">
+            <summary>
+            时间2：年月日时分秒
+            </summary>
+        </member>
+        <member name="T:DES.Entities.BYDQ.RemoteDebugUP">
+            <summary>
+            远程调试功能
+            云端CAN诊断-7002
+            车机到云端
+            校验码 CRC16
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugUP.MsgType">
+            <summary>
+            消息上下行
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugUP.UUID">
+            <summary>
+            诊断请求的唯一序列码
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugUP.CNT">
+            <summary>
+            总上传包数
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugUP.SEQ">
+            <summary>
+            当前上传包序号
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugUP.DiagnosticResult">
+            <summary>
+            诊断结果
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugUP.DataUnitList">
+            <summary>
+            信息体列表
+            </summary>
+        </member>
+        <member name="T:DES.Entities.BYDQ.DataMonitor">
+            <summary>
+            数据监控功能
+            CAN数据多个ID混合组帧转发-3006
+            校验码 CRC16
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataMonitor.UUID">
+            <summary>
+            车机将事务UUID生成后推送至云端
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataMonitor.SignType">
+            <summary>
+            数据类型标记 ，01，02，03
+            0x01 :故障前后30s数据
+            0x02 :黑匣子数据远程配置下发调取上传
+            0x03 :黑匣子本地数据上传
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataMonitor.DbCNT">
+            <summary>
+            入库，总帧数
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataMonitor.CNT">
+            <summary>
+            总帧数
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataMonitor.DbSEQ">
+            <summary>
+            入库，包序号
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataMonitor.SEQ">
+            <summary>
+            包序号
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataMonitor.CanMessageData">
+            <summary>
+            入库，信息体列表
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataMonitor.DataUnitList">
+            <summary>
+            信息体列表
+            </summary>
+        </member>
+        <member name="T:DES.Entities.BYDQ.EventTrigger">
+            <summary>
+            事件触发描述信息
+            事件触发描述信息上传-3007
+            校验码 CRC16
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.EventTrigger.UUID">
+            <summary>
+            车机将事务UUID生成后推送至云端
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.EventTrigger.DbDT">
+            <summary>
+            入库，事件触发对应时间毫秒数
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.EventTrigger.DT">
+            <summary>
+            事件触发对应时间毫秒数
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.EventTrigger.EventCode">
+            <summary>
+            故障码
+            EventCode             描述
+            0x01                SRS故障-0x08c
+            0x02                BS故障-0x122
+            0x03                驻车故障-0x30d
+            0x04                驻车故障-0x122
+            0x05                驻车故障-0x218
+            0x06                转向故障-0x24c
+            0x07                冷区液温度过高-0x30d
+            0x08                动力系统故障-0x240
+            0x09                充电系统故障-0x26c
+            0x0A                充电系统故障-0x30d
+            0x0B                充电系统故障-0x449
+            0x0C                充电系统故障-0x449
+            0x0D                充电系统故障-0x449
+            0x0E                动力电子故障-0x224
+            0x0F                动力电池过热-0x244
+            </summary>
+        </member>
+        <member name="T:DES.Entities.BYDQ.RemoteDebugDown">
+            <summary>
+            远程调试功能
+            云端CAN诊断-7002
+            云端到车机
+            校验码 CRC16
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.MsgType">
+            <summary>
+            消息上下行
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.UUID">
+            <summary>
+            诊断请求的唯一序列码
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.CNT">
+            <summary>
+            总下发包数
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.SEQ">
+            <summary>
+            当前下发包序号
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.DiagnosticDataType">
+            <summary>
+            诊断数据类型
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.SecurityAuthentication">
+            <summary>
+            安全认证方法
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.DiagnosticMode">
+            <summary>
+            诊断模式
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.SendCANID">
+            <summary>
+            诊断发送CANID
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.RecCANID">
+            <summary>
+            诊断接收CANID
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.FrameType">
+            <summary>
+            帧类型
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.KeyK">
+            <summary>
+            被诊断模块的KeyK
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.SIDCNT">
+            <summary>
+            SID个数
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.RemoteDebugDown.DataUnitList">
+            <summary>
+            信息体列表
+            </summary>
+        </member>
+        <member name="T:DES.Entities.BYDQ.DataBaseUnit">
+            <summary>
+            信息体对象属性
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataBaseUnit.DataType">
+            <summary>
+            信息类型标志
+            </summary>
+        </member>
+        <member name="T:DES.Entities.BYDQ.DataUnit.CanMessageData">
+            <summary>
+            3006数据监控CAN数据
+            信息类型标志为0x01
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataUnit.CanMessageData.CANID">
+            <summary>
+            CAN ID
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataUnit.CanMessageData.FP">
+            <summary>
+            CANID所在CAN端口
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataUnit.CanMessageData.DT">
+            <summary>
+            帧对应的时间毫秒数
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataUnit.CanMessageData.CDL">
+            <summary>
+            CANID报文的数据长度
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataUnit.CanMessageData.CDATA">
+            <summary>
+            CANID报文数据
+            </summary>
+        </member>
+        <member name="T:DES.Entities.BYDQ.DataUnit.DiagnosticDataUP">
+            <summary>
+            7002远程调试上行，数据诊断
+            信息类型标志为0x02
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataUnit.DiagnosticDataUP.SIDLength">
+            <summary>
+            SID数据长度
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataUnit.DiagnosticDataUP.SIDDiagnosticResult">
+            <summary>
+            SID诊断结果
+            值           定义
+            0x01        诊断成功
+            0x02        诊断失败，超时5s
+            0x03        诊断失败，车辆档为0FF
+            0x04        诊断失败，CAN静默状态
+            0x05        远程CAN升级
+            0x06        下发命令错误
+            0x07        启动诊断失败
+            0x08        安全认证失败
+            </summary>
+        </member>
+        <member name="T:DES.Entities.BYDQ.DataUnit.DiagnosticDataDown">
+            <summary>
+            7002远程调试下行，数据内容
+            信息类型标志为0x03
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataUnit.DiagnosticDataDown.SIDLength">
+            <summary>
+            SID数据长度
+            </summary>
+        </member>
+        <member name="P:DES.Entities.BYDQ.DataUnit.DiagnosticDataDown.SIDDiagnosticData">
+            <summary>
+            SID诊断数据内容
+            </summary>
+        </member>
+    </members>
+</doc>

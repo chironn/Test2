@@ -1,0 +1,14 @@
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\netcoreapp2.1\DES.DbCaches.csproj.CoreCompileInputs.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\netcoreapp2.1\DES.DbCaches.AssemblyInfoInputs.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\netcoreapp2.1\DES.DbCaches.AssemblyInfo.cs
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\netcoreapp2.1\DES.DbCaches.deps.json
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\netcoreapp2.1\DES.DbCaches.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\netcoreapp2.1\Dapper.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\netcoreapp2.1\InCom.Forward.Ulitities.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\netcoreapp2.1\Oracle.ManagedDataAccess.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\netcoreapp2.1\DES.DbCaches.csproj.CopyComplete
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\bin\Debug\netcoreapp2.1\DES.DbCaches.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\netcoreapp2.1\DES.DbCaches.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\netcoreapp2.1\DES.DbCaches.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.DbCaches\obj\Debug\netcoreapp2.1\DES.DbCaches.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\bin\release\netcoreapp2.1\DES.Utilities.deps.json
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\bin\release\netcoreapp2.1\DES.Utilities.dll
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\bin\release\netcoreapp2.1\DES.Utilities.pdb
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\bin\release\netcoreapp2.1\protobuf-net.dll
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\bin\release\netcoreapp2.1\protobuf-net.xml
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\obj\release\netcoreapp2.1\DES.Utilities.csprojAssemblyReference.cache
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\obj\release\netcoreapp2.1\DES.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\obj\release\netcoreapp2.1\DES.Utilities.AssemblyInfoInputs.cache
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\obj\release\netcoreapp2.1\DES.Utilities.AssemblyInfo.cs
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\obj\release\netcoreapp2.1\DES.Utilities.csproj.CopyComplete
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\obj\release\netcoreapp2.1\DES.Utilities.dll
+C:\Users\E450\Desktop\DES.BYDQConvert.Service\DES.Utilities\obj\release\netcoreapp2.1\DES.Utilities.pdb

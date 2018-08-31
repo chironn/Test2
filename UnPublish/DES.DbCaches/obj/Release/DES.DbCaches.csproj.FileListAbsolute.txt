@@ -1,0 +1,8 @@
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Release\DES.DbCaches.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Release\DES.DbCaches.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Release\Dapper.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Release\Newtonsoft.Json.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\bin\Release\Oracle.ManagedDataAccess.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\obj\Release\DES.DbCaches.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\obj\Release\DES.DbCaches.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.DbCaches\obj\Release\DES.DbCaches.csprojResolveAssemblyReference.cache

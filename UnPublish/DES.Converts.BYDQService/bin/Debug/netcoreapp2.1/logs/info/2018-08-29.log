@@ -1,0 +1,120 @@
+2018-08-29 13:48:03   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 13:48:03   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 13:52:10   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 13:52:10   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 13:52:11   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-29 15:03:32   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:03:33   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:03:34   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-29 15:14:06   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:14:06   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:14:07   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-29 15:16:30   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:16:30   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:19:31   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:19:31   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:19:36   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-29 15:20:13   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:20:14   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:27:41   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:27:42   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:30:48   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 15:30:57   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.NotSupportedException: This protocol version is not supported.
+   at System.Net.Sockets.Socket.BeginConnect(IPAddress address, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Connect(TcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateFrameHandler(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.init()
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at DES.CommunicationMq.MqFactory.Connection(MqConfig config)
+   at DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-29 15:30:57   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-29 15:30:57   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标下行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.NotSupportedException: This protocol version is not supported.
+   at System.Net.Sockets.Socket.BeginConnect(IPAddress address, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Connect(TcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateFrameHandler(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.init()
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at DES.CommunicationMq.MqFactory.Connection(MqConfig config)
+   at DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-29 15:30:57   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-29 15:32:22   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:32:22   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:33:30   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 15:40:52   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:40:52   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:41:44   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 15:50:05   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:50:05   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:50:41   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 15:51:46   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标上行数据接收队列,异常,信息 :mq队列初始化失败!;异常:RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.NotSupportedException: This protocol version is not supported.
+   at System.Net.Sockets.Socket.BeginConnect(IPAddress address, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.Socket.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at System.Net.Sockets.TcpClient.BeginConnect(String host, Int32 port, AsyncCallback requestCallback, Object state)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Connect(TcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateFrameHandler(AmqpTcpEndpoint endpoint, ObtainSocket socketFactory, Int32 timeout)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.init()
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at DES.CommunicationMq.MqFactory.Connection(MqConfig config)
+   at DES.CommunicationMq.MqQueue.MqFastConsumerQueue.Initialize()
+ 2018-08-29 15:51:46   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-29 15:58:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 15:58:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 15:58:12   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 16:11:01   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 16:11:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 16:13:00   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 16:16:30   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 16:16:30   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 16:16:35   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 16:20:08   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 16:20:08   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 16:20:15   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:192.168.1.22:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 16:38:27   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 16:38:27   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 16:38:34   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:192.168.1.22:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 16:40:20   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 16:40:20   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 16:41:43   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 17:01:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 17:01:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 17:01:10   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 17:01:45   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-29 17:01:48   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-29 17:01:49   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-29 17:01:50   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-29 17:32:49   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 17:32:49   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 17:32:58   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 17:33:01   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-29 17:33:01   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-29 17:33:01   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-29 17:33:01   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-29 17:35:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 17:35:02   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 17:35:02   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 17:35:03   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-29 17:35:03   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-29 17:35:03   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-29 17:35:03   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 2018-08-29 17:35:13   ERROR ERROR - DES.Converts.BYDQService;通信队列:BYD企标下行数据接收队列,异常,信息 :通信连接恢复;异常:System.Exception: 连接恢复
+ 2018-08-29 17:35:22   INFO  INFO - DES.Converts.BYDQService;逻辑插件[下行数据逻辑]订阅[BYD企标下行数据接收队列]通信消息
+ 2018-08-29 17:35:22   INFO  INFO - DES.Converts.BYDQService;逻辑插件[上行数据逻辑]订阅[BYD企标上行数据接收队列]通信消息
+ 2018-08-29 17:35:23   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标上行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键7002 交换类型:direct 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.UP
+ 2018-08-29 17:35:24   INFO  INFO - DES.Converts.BYDQService;创建数据消费队列:BYD企标下行数据接收队列,队列信息:角色:consumer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键7002 交换类型:fanout 队列名称:DES.QUEUE.HASE.CONVERTS.BYDData.Down
+ 2018-08-29 17:35:24   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标上行数据发布队列,队列信息:角色:producer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.UP,绑定/路由键 
+ 2018-08-29 17:35:24   INFO  INFO - DES.Converts.BYDQService;创建数据生产队列:BYD企标下行数据发布队列,队列信息:角色:producer,服务地址:172.16.15.147:5672,交换名:DES.EXCHANGE.HASE.CONVERTS.BYDData.Down,绑定/路由键 
+ 2018-08-29 17:35:24   INFO  INFO - DES.Converts.BYDQService;Zabbix 监控 MQ通信IO 线程启动！
+ 

@@ -1,0 +1,13 @@
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\bin\Debug\netcoreapp2.1\DES.Entities.BYDQ.deps.json
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\bin\Debug\netcoreapp2.1\DES.Entities.BYDQ.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\bin\Debug\netcoreapp2.1\DES.Entities.BYDQ.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\bin\Debug\netcoreapp2.1\protobuf-net.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\bin\Debug\netcoreapp2.1\protobuf-net.xml
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\obj\Debug\netcoreapp2.1\DES.Entities.BYDQ.csproj.CoreCompileInputs.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\obj\Debug\netcoreapp2.1\DES.Entities.BYDQ.AssemblyInfoInputs.cache
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\obj\Debug\netcoreapp2.1\DES.Entities.BYDQ.AssemblyInfo.cs
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\obj\Debug\netcoreapp2.1\DES.Entities.BYDQ.csproj.CopyComplete
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\obj\Debug\netcoreapp2.1\DES.Entities.BYDQ.dll
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\obj\Debug\netcoreapp2.1\DES.Entities.BYDQ.pdb
+C:\VisualStudio2017\DES.BYDQConvert.Service\DES.BYDQConvert.Service\DES.Entities.Gbt32960BYDQ\obj\Debug\netcoreapp2.1\DES.Entities.BYDQ.csprojAssemblyReference.cache

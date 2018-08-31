@@ -1,0 +1,238 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "c20494d178147d1d3379934eaf76753e0971b27b"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "DES.Protocols.BYDQ/1.0.0": {
+        "dependencies": {
+          "DES.DbCaches": "1.0.0",
+          "DES.Entities.BYDQ": "1.0.0",
+          "DES.Utilities": "1.0.0",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "Newtonsoft.Json": "6.0.0.0"
+        },
+        "runtime": {
+          "DES.Protocols.BYDQ.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "runtimeTargets": {
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "DES.DbCaches/1.0.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.5.0",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "Oracle.ManagedDataAccess": "4.122.1.0",
+          "Dapper": "1.50.2.0"
+        },
+        "runtime": {
+          "DES.DbCaches.dll": {}
+        }
+      },
+      "DES.Entities.BYDQ/1.0.0": {
+        "dependencies": {
+          "System.Data.DataSetExtensions": "4.5.0",
+          "protobuf-net": "2.3.1.0"
+        },
+        "runtime": {
+          "DES.Entities.BYDQ.dll": {}
+        }
+      },
+      "DES.Utilities/1.0.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.5.0",
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "runtime": {
+          "DES.Utilities.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.3.17227"
+          }
+        }
+      },
+      "Oracle.ManagedDataAccess.Reference/4.122.1.0": {
+        "runtime": {
+          "Oracle.ManagedDataAccess.dll": {
+            "assemblyVersion": "4.122.1.0",
+            "fileVersion": "4.122.1.0"
+          }
+        }
+      },
+      "Dapper.Reference/1.50.2.0": {
+        "runtime": {
+          "Dapper.dll": {
+            "assemblyVersion": "1.50.2.0",
+            "fileVersion": "1.50.2.0"
+          }
+        }
+      },
+      "protobuf-net.Reference/2.3.1.0": {
+        "runtime": {
+          "protobuf-net.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DES.Protocols.BYDQ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NIY8VUJuSNeXPrV5wjQBKKMcd/vctzEGzQuY15zt3/j7Vd4PXfk/QVIOBlqU1/ONRRUu0dsdk5uUTLSSNY+now==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Loe2PGd6SAxq0/kL9Ev/FCxPauBWLLEu1c49XmV2ywWvMasIxArwKCBjBC078wId27jA/TqvIRoKaulnEf290Q==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aVjTe36YkO8FzfNhMLoPEzv3gF9rphoW9ngFhG/MH4zzEPLx07sNrgCLwMP4Wx2leI6qarMrGv21OwQXYUKLmw==",
+      "path": "system.security.accesscontrol/4.5.0",
+      "hashPath": "system.security.accesscontrol.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wZGwRoLGTuEQBOYXlZmEK41OfmO+vYWbLk7q5ePoFqs6vOKP2kUsOeviEjQoR6MbW9udlDjx9iWhcWOTzSj05w==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vDQ7q30Soe0a1cPhvxn+7IFmMeTG5IP+hTQrnKQDjTNpD2epqwbZSzMM2Git5TXBr4Kwwhc/0SEtJY0qPoiegA==",
+      "path": "system.security.permissions/4.5.0",
+      "hashPath": "system.security.permissions.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WA9ETb/pY3BjnxKjBUHEgO59B7d/nnmjHFsqjJ2eDT780nD769CT1/bw2ia0Z6W7NqlcqokE6sKGKa6uw88XGA==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
+    },
+    "DES.DbCaches/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DES.Entities.BYDQ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DES.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Oracle.ManagedDataAccess.Reference/4.122.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper.Reference/1.50.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "protobuf-net.Reference/2.3.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

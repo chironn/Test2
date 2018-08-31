@@ -1,0 +1,7 @@
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Utilities\bin\Release\DES.Utilities.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Utilities\bin\Release\DES.Utilities.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Utilities\bin\Release\protobuf-net.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Utilities\bin\Release\protobuf-net.xml
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Utilities\obj\Release\DES.Utilities.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Utilities\obj\Release\DES.Utilities.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Utilities\obj\Release\DES.Utilities.csprojResolveAssemblyReference.cache

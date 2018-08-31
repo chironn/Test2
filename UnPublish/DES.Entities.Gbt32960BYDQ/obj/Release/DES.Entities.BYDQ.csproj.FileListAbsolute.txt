@@ -1,0 +1,8 @@
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Entities.Gbt32960BYDQ\bin\Release\DES.Entities.BYDQ.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Entities.Gbt32960BYDQ\bin\Release\DES.Entities.BYDQ.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Entities.Gbt32960BYDQ\bin\Release\Newtonsoft.Json.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Entities.Gbt32960BYDQ\bin\Release\protobuf-net.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Entities.Gbt32960BYDQ\bin\Release\protobuf-net.xml
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Entities.Gbt32960BYDQ\obj\Release\DES.Entities.BYDQ.dll
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Entities.Gbt32960BYDQ\obj\Release\DES.Entities.BYDQ.pdb
+E:\项目源码\汽车数据采集交互系统\通用转发服务V2.0\DES.Entities.Gbt32960BYDQ\obj\Release\DES.Entities.BYDQ.csprojResolveAssemblyReference.cache
